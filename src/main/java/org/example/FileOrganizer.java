@@ -13,7 +13,7 @@ public class FileOrganizer {
     public static void main(String[] args) {
         // Проверяем, передан ли путь к каталогу
         if (args.length != 1) {
-            System.out.println("Заданный каталог: java FileOrganizer <directory_path>");
+            System.out.println("Задать каталог нужно следующим образом: java FileOrganizer <directory_path>");
             return;
         }
 
